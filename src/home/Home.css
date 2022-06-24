@@ -1,0 +1,19 @@
+
+
+
+/* Description section */
+.home-description{
+    padding: 20px;
+    background: rgb(8, 56, 63);
+    color: white;
+}
+
+.home-description_icon{
+    height: 70px;
+    margin: 30px;
+}
+
+.col  h2{
+    text-align: center;
+    height: 62.6px;
+}
