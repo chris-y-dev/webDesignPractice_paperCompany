@@ -1,0 +1,20 @@
+/* Contact Us */
+
+#contactUsFooter{
+    padding-bottom: 20px;
+}
+
+#contactUsFooter li{
+    list-style-type: none;
+}
+
+/* Footer */
+.bg-footer{
+    background-color: rgb(35, 35, 35);
+    color: white;
+}
+
+.bg-footer a{
+    text-decoration: none;
+    color:white;
+}
