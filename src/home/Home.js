@@ -11,11 +11,13 @@ function Home() {
         <div class="container-fluid no-padding">
 
         {/* Hero */} 
-        <section class=" container-md p-2 pt-5" id="hero" style={{height:"800px"}}>
-          <h2 class="mt-5">Dunder Mifflin</h2>
-          <h1>Paper by the people, for the people</h1>
-          <button type="button" class="btn btn-outline-dark mx-2 my-4">Our Products</button>
-          <button type="button" class="btn btn-dark mx-2 my-4">Get a Quote</button>
+        <section class="p-2 pt-5" id="hero" style={{height:"800px"}}>
+          <div class="container-md">
+            <h2 class="mt-5">Dunder Mifflin</h2>
+            <h1>Paper by the people, for the people</h1>
+            <button type="button" class="btn btn-outline-dark mx-2 my-4">Our Products</button>
+            <button type="button" class="btn btn-dark mx-2 my-4">Get a Quote</button>
+          </div>
         </section> 
           {/* Description */}
           <section class="bg-turquoise py-5 px-2" id="description">
@@ -54,7 +56,7 @@ function Home() {
             <h1>Our Best Sellers</h1>
             <p>We have a range of paper for all situations. Here are some of our client's favourite ones...</p>
             <div class="container">
-              <div class="row">
+              <div class="row gx-3">
                 <div class="col-sm-12 col-md-4 my-2">
                 <div class="bestSeller-product-container bg-turquoise-light d-flex flex-direction-row flex-wrap justify-content-center">
                     <img src="/products/a4-paper.png" class="bestSeller-product"/>
@@ -63,7 +65,7 @@ function Home() {
                       <ul>
                         <li>Versatile 80gsm paper</li>
                         <li>Ideal for B&W printing</li>
-                        <li>#1 in popularity!</li>
+                        <li>#1 Best Seller!</li>
                       </ul>
                     </div>
                   </div>
