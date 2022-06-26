@@ -14,3 +14,18 @@
     text-decoration: none;
     color:white;
 }
+
+/* footer */
+#contactUsFooter .contact-icon{
+    width: 30px;
+    height: 30px;
+}
+
+#contactUsFooter .contact-icon_offset-bg{
+    width: 30px;
+    height: 30px;
+}
+
+#contactUsFooter .contact-icon_offset-bg{
+    background-color: rgb(169, 208, 192);
+}

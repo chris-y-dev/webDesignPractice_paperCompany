@@ -7,7 +7,7 @@ function Header() {
         <nav class = "navbar navbar-expand-lg bg-light">
             <div class="container-fluid nav-justified">
             {/* BRAND */}
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="/">
                     MyOffice
                 </a>
             {/* TOGGLE */}
@@ -18,10 +18,9 @@ function Header() {
                 <div class="collapse navbar-collapse justify-content-end" id="navBarDropdown">
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="/">Home</a>
-                        <a class="nav-link active" href="#">Products</a>
-                        <a class="nav-link active" href="#">About</a>
+                        <a class="nav-link active" href="/products">Products</a>
+                        <a class="nav-link active" href="/about">About</a>
                         <a class="nav-link active" href="/team">Our Team</a>
-                        <a class="nav-link active" href="#">Careers</a>
                         <a class="nav-link active" href="/contact">Contact</a>
                     </div>
                 </div>

@@ -17,16 +17,15 @@ function Contact() {
 
                     <div class="container my-5">
                         <div class="row mb-4">
-                            <div class="col-sm-12 col-md-6 mb-3">
+                            <div class="col-sm-12 col-md-6 mb-5">
                                 <div class="d-flex flex-row">
                                     <div class="contact-icon_offset-bg">
                                         <img src="icons/phone-call.png" class="contact-icon"/>
-
                                     </div>
                                     <p>03 1234 1234</p>
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-6 mb-3">
+                            <div class="col-sm-12 col-md-6 mb-5">
                                 <div class="d-flex flex-row">
                                     <div class="contact-icon_offset-bg">
                                         <img src="icons/email.png" class="contact-icon"/>
@@ -34,7 +33,7 @@ function Contact() {
                                     <p>hello@dundermifflin.com.au</p>
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-6 mb-3">
+                            <div class="col-sm-12 col-md-6 mb-5">
                                 <div class="d-flex flex-row">
                                     <div class="contact-icon_offset-bg">
                                         <img src="icons/location.png" class="contact-icon"/>

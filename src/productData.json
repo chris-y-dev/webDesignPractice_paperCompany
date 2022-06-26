@@ -1,0 +1,27 @@
+{
+    "a4Paper":{
+        "name": "Premium 80gsm A4",
+        "src": "/products/a4-paper.png",
+        "desc": "This Reflex 50% Recycled Copy Paper is designed to be a high quality and environmentally friendly paper option. It is made by blending Australian sourced waste fibre with new fibre to produce clean, bright paper with premium whiteness.",
+        "link": "/a4-paper",
+        "descList": ["As it is 80 gsm paper, it's ideal for use in standard printers and copiers.", "The A4 size makes it ideal for every day printing of documents, letters, forms and more.", "It has a CIE Whiteness of 155 for high contrast.", "Each ream contains 500 sheets of general purpose paper.", "It has a CIE Whiteness of 155 for high contrast."]
+    },
+
+    "a3Paper": {
+        "src": "/products/a3-paper.png",
+        "name": "Premium 80gsm A3",
+        "desc": "The A3 size makes it ideal for printing large documents such as spreadsheets, floorplans and documents. It is made by blending Australian sourced waste fibre with new fibre to produce clean, bright paper with premium whiteness.",
+        "link": "/a3-paper",
+        "descList": ["This paper is 80 gsm which makes it ideal for a range of applications.", "Each ream contains 500 sheets of general purpose paper.", "It has a CIE Whiteness of 165 for black and white and colour printing.", "This paper is made with Ink Wise technology to deliver bold, vibrant print results without the need for extra ink or toner."]
+    },
+
+    "a4PaperCoated": {
+        "src": "/products/a4-paper-coated.png",
+        "name": "Gloss Coated 200gsm A4",
+        "desc": "This J.Burrows Digital Paper is coated making it ideal for use in laser printers and copiers. Each sheet has a thick construction and will provide your printed documents with a gloss finish. This paper is suitable for Laser printers only.",
+        "link": "/a4-paper-coated",
+        "descList": ["Each sheet has a 200 gsm construction, thicker than standard paper.", "This digital paper is A4 sized making it ideal for everyday applications.", "There are 250 sheets in this pack.", "It has a CIE whiteness of 119 and a gloss finish.", "The forestry content of this product has been sourced from an FSC certified supplier, supporting healthy forests and protecting wildlife."]
+
+    }
+
+}

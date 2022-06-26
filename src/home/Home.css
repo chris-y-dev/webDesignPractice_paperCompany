@@ -41,6 +41,10 @@
     display: inline-block;
 }
 
+#bestSellers a{
+    text-decoration: none;
+}
+
 .bg-turquoise-light{
     background: rgb(76, 140, 150);
 }

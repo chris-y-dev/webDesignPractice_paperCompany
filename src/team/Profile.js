@@ -9,7 +9,7 @@ function Profile({  source, name, pos }) {
         </div>
         <div class="profile-text">
             <p id="profile-name">{name}</p>
-            <p id="profile-position">{pos}</p>
+            <p class="turquoise-font">{pos}</p>
         </div>
     </div>
   )

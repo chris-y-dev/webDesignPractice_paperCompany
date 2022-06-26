@@ -15,9 +15,9 @@ function Footer() {
                 </div>
                 <div class="d-flex flex-row flex-wrap justify-content-center mb-0">
                         <a class="p-2" href="/">Home</a>
-                        <a class="p-2" href="#">Products</a>
+                        <a class="p-2" href="/products">Products</a>
                         <a class="p-2" href="/team">Our Team</a>
-                        <a class="p-2" href="#">Link 4</a>
+                        <a class="p-2" href="/about">About</a>
                         <a class="p-2" href="/contact">Contact</a>
 
                 </div>
