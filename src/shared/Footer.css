@@ -4,10 +4,6 @@
     padding-bottom: 20px;
 }
 
-#contactUsFooter li{
-    list-style-type: none;
-}
-
 /* Footer */
 .bg-footer{
     background-color: rgb(35, 35, 35);

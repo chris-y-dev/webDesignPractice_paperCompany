@@ -12,5 +12,18 @@
 }
 
 .profile-text{
-    
+    margin-bottom: 24px;
+}
+
+.profile-text p{
+    margin:0;
+}
+
+#profile-name{
+
+}
+
+#profile-position{
+    font-weight: bold;
+    color: rgb(7, 140, 160);
 }

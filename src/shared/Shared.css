@@ -13,3 +13,29 @@
 .btn-dark:hover{
     background-color: rgb(13, 92, 105) !important;
 }
+
+/* contact */
+.contact-details{
+    list-style-type: none;
+}
+
+.contact-icon{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.contact-icon_offset-bg{
+    background-color: rgb(106, 225, 177);
+    width: 30px;
+    height: 30px;
+    z-index: -1;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.contact-icon_offset-bg img{
+    position: relative;
+    top: -5px;
+    right: 20px;
+}

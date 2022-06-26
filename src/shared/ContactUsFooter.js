@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import ContactDetails from './ContactDetails';
 
 function ContactUsFooter() {
   return (
@@ -9,11 +10,7 @@ function ContactUsFooter() {
                 <div class="row gx-6 justify-content-center">
                     <div class="col-12 col-md-6">
                         <h3 class="p-4">Send us a message, ask us anything!</h3>
-                        <ul>
-                            <li class="p-2">03 1234 1234</li>
-                            <li class="p-2">hello@dundermifflin.com.au</li>
-                            <li class="p-2">99 Chris Street, Melbourne VIC 3000</li>
-                        </ul>
+                        <ContactDetails />
                     </div>
                     <div class="col-sm-12 col-md-6">
                         <form>

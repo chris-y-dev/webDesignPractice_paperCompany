@@ -8,8 +8,8 @@ function Profile({  source, name, pos }) {
             <img src={source} class="profile-img"/>
         </div>
         <div class="profile-text">
-            <p>{pos}</p>
-            <p>{name}</p>
+            <p id="profile-name">{name}</p>
+            <p id="profile-position">{pos}</p>
         </div>
     </div>
   )

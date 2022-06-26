@@ -17,12 +17,12 @@ function Header() {
                 {/* Nav to be collapsed into button */}
                 <div class="collapse navbar-collapse justify-content-end" id="navBarDropdown">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
                         <a class="nav-link active" href="#">Products</a>
                         <a class="nav-link active" href="#">About</a>
-                        <a class="nav-link active" href="#">Our Team</a>
+                        <a class="nav-link active" href="/team">Our Team</a>
                         <a class="nav-link active" href="#">Careers</a>
-                        <a class="nav-link active" href="#">Contact</a>
+                        <a class="nav-link active" href="/contact">Contact</a>
                     </div>
                 </div>
             </div>

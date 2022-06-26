@@ -14,11 +14,11 @@ function Footer() {
                     <p><a href="https://chrisyuen.info/">chrisyuen.info</a></p>
                 </div>
                 <div class="d-flex flex-row flex-wrap justify-content-center mb-0">
-                        <a class="p-2" href="#">Link 1</a>
-                        <a class="p-2" href="#">Link 2</a>
-                        <a class="p-2" href="#">Link 3</a>
+                        <a class="p-2" href="/">Home</a>
+                        <a class="p-2" href="#">Products</a>
+                        <a class="p-2" href="/team">Our Team</a>
                         <a class="p-2" href="#">Link 4</a>
-                        <a class="p-2" href="#">Link 5</a>
+                        <a class="p-2" href="/contact">Contact</a>
 
                 </div>
             </footer>
