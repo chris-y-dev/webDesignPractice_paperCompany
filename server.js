@@ -25,10 +25,6 @@ const corsOptions = {
   app.use(cors(corsOptions))
 
 
-// app.get("/", (req,res)=>{
-//     res.send("<h1>server working</h1>")
-// })
-
 
 app.post("/form", (req,res)=>{
     console.log('Message submitted successfully')
@@ -36,6 +32,11 @@ app.post("/form", (req,res)=>{
     console.log(form)
     res.send(form)
 })
+
+//Handle any request that doesn't match the one above
+app.get('*', (req,res) =>{
+    res.sendFile(path.join(__dirname+'/client/build/index.html'));
+});
 
 
 app.listen(port, ()=>{
