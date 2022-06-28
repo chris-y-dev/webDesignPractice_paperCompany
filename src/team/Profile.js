@@ -5,7 +5,7 @@ function Profile({  source, name, pos }) {
   return (
     <div>
         <div class="profile-img-container">
-            <img src={source} class="profile-img"/>
+            <img src={source} class="profile-img animation-enlarge"/>
         </div>
         <div class="profile-text">
             <p id="profile-name">{name}</p>

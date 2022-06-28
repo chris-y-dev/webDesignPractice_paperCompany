@@ -6,11 +6,11 @@ function BestSellers() {
             <div class="container-md">
             <h1>Our Best Sellers</h1>
             <p>We have a range of paper for all situations. Here are some of our client's favourite ones...</p>
-            <div class="container">
+            <div class="container mt-4">
               <div class="row gx-3">
-                <div class="col-sm-12 col-md-4 my-2">
+                <div class="col-sm-12 col-md-4 my-2 animation-lift">
                   <a href="/a4-paper">
-                  <div class="bestSeller-product-container bg-turquoise-light d-flex flex-direction-row flex-wrap justify-content-center">
+                  <div class="bestSeller-product-container bg-turquoise-light d-flex flex-direction-row flex-wrap justify-content-center" id="bestSeller-item">
                       <img src="/products/a4-paper.png" class="bestSeller-product"/>
                       <div class="product-description">
                         <h4>Premium A4</h4>
@@ -27,7 +27,7 @@ function BestSellers() {
                 
                 <div class="col-sm-12 col-md-4 my-2">
                   <a href="/a3-paper">
-                    <div class="bestSeller-product-container bg-turquoise-mid d-flex flex-direction-row flex-wrap justify-content-center">
+                    <div class="bestSeller-product-container bg-turquoise-mid d-flex flex-direction-row flex-wrap justify-content-center animation-lift" id="bestSeller-item">
                       <img src="/products/a3-paper.png" class="bestSeller-product"/>
                       <div class="product-description">
                         <h4>Premium A3</h4>
@@ -43,7 +43,7 @@ function BestSellers() {
                 
                 <div class="col-sm-12 col-md-4  my-2">
                   <a href="/a4-paper-coated">
-                  <div class="bestSeller-product-container bg-turquoise-dark d-flex flex-direction-row flex-wrap justify-content-center">
+                  <div class="bestSeller-product-container bg-turquoise-dark d-flex flex-direction-row flex-wrap justify-content-center animation-lift" id="bestSeller-item">
                       <img src="/products/a4-paper-coated.png" class="bestSeller-product"/>
                       <div class="product-description">
                         <h4>Glossy Coated</h4>

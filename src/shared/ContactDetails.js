@@ -3,7 +3,7 @@ import React from 'react'
 function ContactDetails() {
   return (
     <div>
-      <ul>
+      <>
           <div class="d-flex flex-row my-2">
               <div class="contact-icon_offset-bg">
                   <img src="/icons/phone-call.png" class="contact-icon"/>
@@ -22,7 +22,7 @@ function ContactDetails() {
               </div>
               <p>99 Chris Street, Melbourne VIC 3000</p>
           </div>
-      </ul>
+      </>
     </div>
   )
 }

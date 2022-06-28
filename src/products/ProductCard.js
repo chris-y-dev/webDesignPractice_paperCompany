@@ -8,7 +8,7 @@ function ProductCard({data, reverse}) {
             <div class={(reverse?"d-flex flex-row-reverse":"d-flex flex-row") + " align-items-center flex-wrap justify-content-center"}>
                 <div class="col-sm-12 col-md-6">
                     <a href={data.link}>
-                        <img src={data.src} class="w-100"/>
+                        <img src={data.src} class="w-100 animation-lift"/>
                     </a>
                         
                 </div>
