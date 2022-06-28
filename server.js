@@ -2,11 +2,12 @@ const express = require('express');
 const app = express();
 const bodyParser = require("body-parser");
 const cors = require('cors');
+const path = require('path');
 
 app.use(express.json())
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
-
+app.use(express.static(path.join(__dirname, "client","build")))
 
 const port = process.env.PORT || 3001;
 
@@ -24,9 +25,9 @@ const corsOptions = {
   app.use(cors(corsOptions))
 
 
-app.get("/", (req,res)=>{
-    res.send("<h1>server working</h1>")
-})
+// app.get("/", (req,res)=>{
+//     res.send("<h1>server working</h1>")
+// })
 
 
 app.post("/form", (req,res)=>{
