@@ -49,7 +49,7 @@ function Contact() {
                     <div class="container-fluid justify-content-center">
                         <div class="row gx-5">
                             <div class="col-sm-12 col-md-6">
-                                <img src="/teamPics/office-xmas-team.jpg" class="w-100" id="contact-img"/>
+                                <img src="teamPics/office-xmas-team.jpg" class="w-100" id="contact-img"/>
                             </div>
                             <div class="col-sm-12 col-md-6">
                                 <div>
